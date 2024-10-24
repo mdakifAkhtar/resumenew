@@ -1,0 +1,130 @@
+.boxx{
+    height:249px;
+    max-width:100% ;
+    background-color: rgb(243, 240, 237);
+    display:flex ;
+    border-radius:15px ;
+}
+
+.boximg img{
+    height:249px;
+    max-width:249px;
+    background-color:bisque;
+    margin-left:5px;
+    object-fit:cover;
+    border-radius:75px;
+}
+
+.boxinfo{
+    height:249px;
+    width:100% ;
+    background-color:rgb(243, 240, 237);
+    margin-top:5px;
+    margin-left:25px;
+}
+p1{
+    margin-left:25px ;
+    font-size:23px ;
+    font-weight:bold ;
+}
+p2{
+    font-size:18px ;
+    font-weight: bold;
+    margin-left:25px ;
+}
+a,p{
+    margin-left:25px ;
+}
+h4{
+        text-align: center;
+        margin-top:15px;
+        font-size:19px ;
+
+}
+li{
+    text-align: left;
+    margin-left:5px ;
+}
+.secondline{
+    display: flex;
+    height:449px;
+    width:100% ;
+    background-color:white;
+    margin-top:25px ;
+    border-radius:15px 0px 15px 0px ;
+    }
+.skill{
+    height:449px;
+    width:273px ;
+    background-color: rgb(190, 197, 187);
+    border-radius:0px 19px 0px 19px;
+    text-align: center;
+    
+}
+.profile{
+    height:449px;
+    width:100% ;
+    background-color:antiquewhite;
+    display: inline;
+    border-radius:12px ;
+}
+h5{
+    height:13px ;
+    width:173px;
+    background-color: rgb(231, 216, 196);
+    border-radius:13px ;
+    text-align: center;
+    margin-left:129px ;
+    padding:12px ;
+    box-shadow:5px 5px 7px goldenrod,-5px -5px 7px goldenrod ;
+    font-weight: bold;
+    font-size:13px ;
+}
+h5:active{
+    background-color: aquamarine;
+}
+.name{
+    background-color:aliceblue;
+    width:fit-content ;
+    border-radius:11px ;
+    font-size:18px ;
+    font-style: italic;
+    font-weight: bold;
+    height:25px;
+}
+.name:hover{
+    background-color: rgb(182, 141, 221);
+    width:fit-content ;
+    font-size:25px ;
+    color:white ;
+    display: grid;
+    place-items:center ;
+}
+ol{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profilebox{
+    height:13px ;
+    width:173px;
+    background-color: rgb(231, 216, 196);
+    border-radius:13px ;
+    text-align: center;
+    margin-left:129px ;
+    padding:12px ;
+    box-shadow:5px 5px 7px goldenrod,-5px -5px 7px goldenrod ;
+    font-weight: bold;
+    font-size:19px ;
+}
+.educationbox{
+    height:13px ;
+    width:173px;
+    background-color: rgb(231, 216, 196);
+    border-radius:13px ;
+    text-align: center;
+    margin-left:129px ;
+    padding:12px ;
+    box-shadow:5px 5px 7px goldenrod,-5px -5px 7px goldenrod ;
+    font-weight: bold;
+    font-size:19px ;
+}
