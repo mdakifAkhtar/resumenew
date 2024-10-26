@@ -3,7 +3,7 @@
     max-width:100% ;
     background-color: rgb(243, 240, 237);
     display:flex ;
-    border-radius:15px ;
+    border-radius:79px 5px 5px 79px ;
 }
 
 .boximg img{
@@ -16,7 +16,7 @@
 }
 
 .boxinfo{
-    height:249px;
+    height:244px;
     width:100% ;
     background-color:rgb(243, 240, 237);
     margin-top:5px;
@@ -47,44 +47,54 @@ li{
 }
 .secondline{
     display: flex;
-    height:449px;
+    height:471px;
     width:100% ;
     background-color:white;
     margin-top:25px ;
     border-radius:15px 0px 15px 0px ;
     }
 .skill{
-    height:449px;
-    width:273px ;
+    height:471px;
+    width:278px ;
     background-color: rgb(190, 197, 187);
     border-radius:0px 19px 0px 19px;
-    text-align: center;
-    
+    text-align:center; 
+}
+.plang{
+    text-align:start ;
+    font-weight: bold;
+    font-size:15px ;
 }
 .profile{
-    height:449px;
+    height:471px;
     width:100% ;
     background-color:antiquewhite;
     display: inline;
-    border-radius:12px ;
+    border-radius:9px 12px 12px 9px ;
 }
-h5{
-    height:13px ;
-    width:173px;
+.project{
+    height:35px ;
+    width:193px;
     background-color: rgb(231, 216, 196);
     border-radius:13px ;
     text-align: center;
     margin-left:129px ;
-    padding:12px ;
+    display: grid;
+    place-items:center ;
     box-shadow:5px 5px 7px goldenrod,-5px -5px 7px goldenrod ;
-    font-weight: bold;
-    font-size:13px ;
+    font-weight:bolder;
+    font-size:18px ;
 }
-h5:active{
-    background-color: aquamarine;
+.project:hover{
+    background-color: rgb(228, 234, 232);
+}
+.profilebox:hover{
+    background-color: rgb(228, 234, 232);
+}
+.educationbox:hover{
+    background-color: rgb(228, 234, 232);
 }
 .name{
-    background-color:aliceblue;
     width:fit-content ;
     border-radius:11px ;
     font-size:18px ;
@@ -93,37 +103,40 @@ h5:active{
     height:25px;
 }
 .name:hover{
-    background-color: rgb(182, 141, 221);
+    box-shadow:5px 5px 7px rgb(189, 234, 240),-5px -5px 7px rgb(139, 208, 234) ;
     width:fit-content ;
-    font-size:25px ;
-    color:white ;
     display: grid;
     place-items:center ;
 }
 ol{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-between;
+}
+hr{
+    height:3px ;
 }
 .profilebox{
-    height:13px ;
-    width:173px;
+    height:35px ;
+    width:193px;
     background-color: rgb(231, 216, 196);
     border-radius:13px ;
     text-align: center;
+    display: grid;
+    place-items:center ;
     margin-left:129px ;
-    padding:12px ;
     box-shadow:5px 5px 7px goldenrod,-5px -5px 7px goldenrod ;
     font-weight: bold;
     font-size:19px ;
 }
 .educationbox{
-    height:13px ;
-    width:173px;
+    height:35px ;
+    width:193px;
     background-color: rgb(231, 216, 196);
     border-radius:13px ;
     text-align: center;
+    display: grid;
+    place-items:center ;
     margin-left:129px ;
-    padding:12px ;
     box-shadow:5px 5px 7px goldenrod,-5px -5px 7px goldenrod ;
     font-weight: bold;
     font-size:19px ;
