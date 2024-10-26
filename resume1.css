@@ -87,12 +87,15 @@ li{
 }
 .project:hover{
     background-color: rgb(228, 234, 232);
+    box-shadow:5px 5px 7px rgb(139, 199, 230),-5px -5px 7px rgb(97, 118, 133) ;
 }
 .profilebox:hover{
     background-color: rgb(228, 234, 232);
+    box-shadow:5px 5px 7px rgb(139, 199, 230),-5px -5px 7px rgb(97, 118, 133) ;
 }
 .educationbox:hover{
     background-color: rgb(228, 234, 232);
+    box-shadow:5px 5px 7px rgb(139, 199, 230),-5px -5px 7px rgb(97, 118, 133) ;
 }
 .name{
     width:fit-content ;
