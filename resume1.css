@@ -47,14 +47,14 @@ li{
 }
 .secondline{
     display: flex;
-    height:529px;
+    height:549px;
     width:100% ;
     background-color:white;
     margin-top:25px ;
     border-radius:15px 0px 15px 0px ;
     }
 .skill{
-    height:529px;
+    height:549px;
     width:278px ;
     background-color: rgb(190, 197, 187);
     border-radius:0px 19px 0px 19px;
@@ -66,7 +66,7 @@ li{
     font-size:15px ;
 }
 .profile{
-    height:529px;
+    height:549px;
     width:100% ;
     background-color:antiquewhite;
     display: inline;
@@ -78,7 +78,7 @@ li{
     background-color: rgb(231, 216, 196);
     border-radius:13px ;
     text-align: center;
-    margin-left:129px ;
+    margin-left:49% ;
     display: grid;
     place-items:center ;
     box-shadow:5px 5px 7px goldenrod,-5px -5px 7px goldenrod ;
@@ -106,7 +106,7 @@ li{
     height:25px;
 }
 .name:hover{
-    box-shadow:5px 5px 7px rgb(189, 234, 240),-5px -5px 7px rgb(139, 208, 234) ;
+    box-shadow:5px 5px 7px rgb(230, 159, 213),-5px -5px 7px rgb(220, 87, 211) ;
     width:fit-content ;
     display: grid;
     place-items:center ;
